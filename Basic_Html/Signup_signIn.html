@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form >
+		<fieldset>
+			<legend>Sign Up</legend>
+				<label for="fname">Enter First Name : </label>
+				<input type="text" id="fname" name="fname" minlength="3" required>
+				<br><br>
+				<label for="lname">Enter Last Name  : </label>
+				<input type="text" id="lname" name="lname" minlength="3" required>
+				<br><br>
+				<label for="eml">Enter Your Email :</label>
+				<input type="email" id="eml" name="eml" minlength="3" required>
+				<br><br>
+				<label for="pswd">Enter password : </label>
+				<input type="password" id="pswd" name="pswd">
+				<br><br>
+				<label for="ag">enter Age</label>
+				<input type="number" id="ag" name="ag" min="0" max="150" required>
+				<br><br>
+				<label for="gen">Enter Gender</label>
+				<select name="gen" id="gen">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="others">Others</option>
+				</select>
+				<br><br>
+				<label for="terms">I accept terms and conditions</label>
+				<input type="radio" id="terms" name="terms" value="accepted" required>
+				<br><br>
+				<input type="submit">
+		</fieldset>
+	</form>
+	<br><br><br>
+
+	<!-- sign in -->
+	<form >
+		<fieldset>
+			<legend>Sign In</legend>
+			<label for="signin-eml">Enter Email</label>
+			<input type="email" id="signin-eml" name="signin-eml" minlength="3" required>
+			<br><br>
+			<label for="signin-pswd">Enter password</label>
+			<input type="password" id="signin-pswd" name="signin-pswd" >
+			<br><br>
+			<input type="submit">
+		</fieldset>
+	</form>
+</body>
+</html>
